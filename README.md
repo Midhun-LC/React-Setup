@@ -24,3 +24,6 @@ for webpack:
 ```npm install webpack webpack-cli```  
 for babel:  
 ```npm install @babel\core babel-loader @babel\preset-env @babel\preset-react```  
+
+
+### i cannot make any changes directly to master
