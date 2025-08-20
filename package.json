@@ -1,0 +1,36 @@
+{
+  "name": "react-setup",
+  "version": "1.0.0",
+  "description": "a sample react app created from scratch",
+  "homepage": "https://github.com/Midhun-LC/React-Setup#readme",
+  "bugs": {
+    "url": "https://github.com/Midhun-LC/React-Setup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Midhun-LC/React-Setup.git"
+  },
+  "license": "ISC",
+  "author": "Midhun LC",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": " webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "html-webpack-plugin": "^5.6.4",
+    "tsc": "^2.0.4",
+    "webpack": "^5.101.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
